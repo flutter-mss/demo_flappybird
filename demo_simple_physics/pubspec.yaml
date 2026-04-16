@@ -1,0 +1,15 @@
+name: demo_simple_physics
+description: Basic gravity and collision physics for flappy bird
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mss_core:
+    path: ../mss_core
+  demo_flappy_physics_def:
+    path: ../demo_flappy_physics_def

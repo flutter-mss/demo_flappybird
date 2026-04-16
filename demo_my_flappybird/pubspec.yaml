@@ -1,0 +1,19 @@
+name: demo_my_flappybird
+description: A flappy bird game plugin
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mss_core:
+    path: ../mss_core
+  demo_flappybird_def:
+    path: ../demo_flappybird_def
+  demo_flappy_physics_def:
+    path: ../demo_flappy_physics_def
+  demo_flappy_assets_def:
+    path: ../demo_flappy_assets_def
