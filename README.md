@@ -9,7 +9,6 @@ MSS server via `git_subpath`.
 
 | Subpath | Role | Kind |
 |---|---|---|
-| `demo_flappybird_def/` | App interface definition | Interface (app) |
 | `demo_my_flappybird/` | App implementation | Plugin (app) |
 | `demo_flappy_physics_def/` | Physics module interface | Interface (module) |
 | `demo_simple_physics/` | Classic-feel physics | Plugin (module) |
@@ -19,9 +18,8 @@ MSS server via `git_subpath`.
 ## Dependency graph
 
 ```
-demo_my_flappybird ──▶ demo_flappybird_def
-                   ├─▶ demo_flappy_physics_def ◀── demo_simple_physics
-                   └─▶ demo_flappy_assets_def  ◀── demo_pixel_assets
+demo_my_flappybird ─┬─▶ demo_flappy_physics_def ◀── demo_simple_physics
+                    └─▶ demo_flappy_assets_def  ◀── demo_pixel_assets
 ```
 
 For an alternative physics implementation, see

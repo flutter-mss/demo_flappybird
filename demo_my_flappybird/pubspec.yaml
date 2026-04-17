@@ -11,8 +11,6 @@ dependencies:
     sdk: flutter
   mss_core:
     path: ../mss_core
-  demo_flappybird_def:
-    path: ../demo_flappybird_def
   demo_flappy_physics_def:
     path: ../demo_flappy_physics_def
   demo_flappy_assets_def:

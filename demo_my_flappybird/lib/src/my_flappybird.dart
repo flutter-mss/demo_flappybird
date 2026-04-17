@@ -2,7 +2,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:mss_core/mss_core.dart';
-import 'package:demo_flappybird_def/demo_flappybird_def.dart';
 import 'package:demo_flappy_physics_def/demo_flappy_physics_def.dart';
 import 'package:demo_flappy_assets_def/demo_flappy_assets_def.dart';
 
@@ -18,7 +17,7 @@ const double _pipeSpawnEvery = 1.5;
 const double _birdSize = 40.0;
 const double _birdXFrac = 0.3;
 
-class MyFlappyBird extends FlappyBirdDefinition {
+class MyFlappyBird extends AppInterface {
   FlappyPhysicsDefinition? physics;
   FlappyAssetsDefinition? assets;
 
