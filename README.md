@@ -27,6 +27,13 @@ For an alternative physics implementation, see
 
 All packages also depend on `mss_core` (rewritten by the MSS combiner at assembly time).
 
+## Try it
+
+Download the signed MSS client from
+[flutter-mss/mss_releases](https://github.com/flutter-mss/mss_releases/releases/latest),
+browse the store, and pick `demo_my_flappybird` plus a physics module
+(`demo_simple_physics` or the alternative) and `demo_pixel_assets`.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
