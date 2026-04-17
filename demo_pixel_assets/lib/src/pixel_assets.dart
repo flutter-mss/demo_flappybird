@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mss_core/mss_core.dart';
 import 'package:demo_flappy_assets_def/demo_flappy_assets_def.dart';
 
 class PixelAssets extends FlappyAssetsDefinition {
@@ -62,8 +61,3 @@ class _BirdPainter extends CustomPainter {
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
-
-ExtensionFactory<PixelAssets> factory() => ExtensionFactory(
-      name: 'Pixel Assets',
-      create: () => PixelAssets(),
-    );

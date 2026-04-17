@@ -13,8 +13,8 @@ MSS server via `git_subpath`.
 | `demo_my_flappybird/` | App implementation | Plugin (app) |
 | `demo_flappy_physics_def/` | Physics module interface | Interface (module) |
 | `demo_simple_physics/` | Classic-feel physics | Plugin (module) |
-| `demo_flappy_assets_def/` | Visual assets extension interface | Interface (extension) |
-| `demo_pixel_assets/` | Pixel-art bird sprites | Plugin (extension) |
+| `demo_flappy_assets_def/` | Visual assets module interface | Interface (module) |
+| `demo_pixel_assets/` | Pixel-art bird sprites | Plugin (module) |
 
 ## Dependency graph
 

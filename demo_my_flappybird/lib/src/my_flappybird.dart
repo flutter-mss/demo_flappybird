@@ -25,11 +25,7 @@ class MyFlappyBird extends FlappyBirdDefinition {
   @override
   void setup(List<ModuleInterface> modules) {
     physics = modules.whereType<FlappyPhysicsDefinition>().firstOrNull;
-  }
-
-  @override
-  void setupExtensions(List<ExtensionInterface> extensions) {
-    assets = extensions.whereType<FlappyAssetsDefinition>().firstOrNull;
+    assets = modules.whereType<FlappyAssetsDefinition>().firstOrNull;
   }
 
   @override
